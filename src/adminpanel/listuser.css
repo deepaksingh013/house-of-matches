@@ -1,0 +1,12 @@
+.listuser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.listuser img{
+height: 200px;
+width: 200px;
+object-fit: cover;
+}

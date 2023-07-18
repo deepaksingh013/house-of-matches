@@ -1,0 +1,62 @@
+.main-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+/* member style */
+.memb-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.banner-content {
+    margin-top: 2rem;
+    width: 97%;
+    margin-bottom: 2rem;
+
+}
+
+.banner-content img {
+    width: 100%;
+}
+
+.mrmber-txt {
+    position: absolute;
+    bottom: 50px;
+    left: 55px;
+}
+
+.mrmber-txt h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    /* Medium font weight */
+    font-size: 64px;
+    color: #fff;
+}
+
+@media(max-width:786px) {
+    .mrmber-txt h1 {
+        font-size: 40px;
+    }
+
+}
+
+
+@media(max-width:530px) {
+    .memb-banner {
+        display: none;
+    }
+    .mrmber-txt h1 {
+        font-size: 20px;
+    }
+    .banner-content {
+        margin-top: 2rem;
+        width: 90%;
+        margin-bottom: 2rem;
+    
+    }
+}

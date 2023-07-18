@@ -1,0 +1,606 @@
+.member-form {
+  background: linear-gradient(to bottom, #FF8210, #FF3131);
+  border-radius: 64px;
+  padding: 4rem 4rem 4rem 4rem;
+  width: 97%;
+  margin: auto;
+}
+
+.personal-info {
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+  font-weight: 500;
+
+}
+
+
+input {
+  padding: 10px 0;
+  box-sizing: border-box;
+  box-shadow: none;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #fff;
+  width: 100%;
+  background-color: transparent;
+}
+
+.box {
+  /* margin:40px; */
+  position: relative;
+  display: flex;
+  margin-top: 2rem;
+  width: 100%;
+}
+
+.label-main {
+  white-space: nowrap;
+  position: absolute;
+  top: 10px;
+  left: 0;
+  transition: .5s;
+  pointer-events: none;
+  color: #fff;
+  opacity: 0.7;
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.gender-label {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+input:focus~.label-main,
+input:valid~.label-main {
+  color: #fff 70%;
+  /* top: -25px; */
+  display: none;
+  left: 0;
+  transition: top 0.1s ease, left 0.1s ease;
+  /* Adjust the duration here */
+}
+
+.mainBx {
+  position: relative;
+  display: flex;
+  gap: 40px;
+  /* width: 100%; */
+}
+
+.label-2 {
+  font-size: 10px;
+
+}
+
+/* input{
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid #fff;
+}
+ */
+.personal-txt {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  /* Medium font weight */
+  font-size: 40px;
+  color: #fff;
+}
+
+.info-txt {
+  margin-top: 3rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  /* Medium font weight */
+  font-size: 40px;
+  color: #fff;
+}
+
+.check {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  /* Medium font weight */
+  font-size: 20px;
+  color: #fff;
+}
+
+.checkboxes {
+  margin-top: 2rem;
+  /* margin-left: 10px; */
+}
+
+.checkboxes button {
+  width: 253px;
+  border-radius: 20px;
+}
+
+.radios input {
+  outline: none;
+}
+.check-box-main-container{
+    margin-top: 3rem;
+} 
+
+.radio:checked {
+  color: pink;
+}
+
+input[type='radio'] {
+  position: absolute;
+  opacity: 0;
+}
+
+.radio-custom {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 2px solid #fff;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+input[type='radio']:checked+.radio-custom {
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.radio-label {
+  color: #fff;
+  opacity: 0.7;
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  text-transform: capitalize;
+}
+
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  border: 2px solid #000;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+/* 
+.box input[type="date"]::placeholder {
+    content: "";
+  } */
+/* .selections{
+    border-bottom: 2px solid #fff;
+} */
+.select-profile {
+  cursor: pointer;
+  width: 100%;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  text-transform: capitalize;
+  outline: none;
+  /* Remove the outline when focused */
+  /* Adjust the padding as needed */
+  background-color: transparent;
+  /* Set the background color */
+}
+
+.select-profile::after {
+  /* Add the dropdown arrow */
+  content: "\25BC";
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+option {
+  cursor: pointer;
+  border: none;
+  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  text-transform: capitalize;
+  background-color: #fff;
+  color: #000;
+  border-bottom: 1px solid #000;
+}
+
+option:hover {
+  background-color: #fff !important;
+}
+
+select>option:hover {
+  background-color: red;
+  color: #1B517E;
+  cursor: pointer;
+}
+
+input[type="text"] {
+  font-size: 24px;
+  /* Set the desired font size */
+  padding-bottom: 5px;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+input[type="date"] {
+  font-size: 24px;
+  /* Set the desired font size */
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+}
+
+.select-profile {
+  color: rgba(255, 255, 255, 0.7);
+  /* opacity: 0.7; */
+  font-size: 24px;
+  font-weight: 400;
+
+}
+
+.select-profile.selected {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+  opacity: 1;
+
+
+}
+
+/* radio buttons */
+
+.radio-group {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: -30px;
+}
+
+.radio-group input[type="radio"] {
+  display: none;
+}
+
+.radio-group label {
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.radio-group label:before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.radio-group input[type="radio"]:checked+label:before {
+  background-color: #fff;
+}
+
+
+/*  */
+
+.professional-info {
+  text-transform: capitalize;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-size: 40px;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+  font-weight: 500;
+}
+
+.hear-about {
+  margin-top: 3rem;
+}
+
+.select-images {
+  margin-top: 3rem;
+}
+
+.btn-main-check {
+  margin-top: 6rem;
+  border: none;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  padding: 10px 100px 10px 100px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: 4px solid #fff;
+}
+
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+/* Hidden checkbox input */
+.checkbox-container input {
+  display: none;
+}
+
+/* Custom checkbox */
+.custom-checkbox {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  position: relative;
+}
+
+/* Checkmark */
+.custom-checkbox::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 15px;
+  height: 15px;
+  background-color: #fff;
+  border-radius: 2px;
+  opacity: 0;
+}
+
+/* Checked state */
+.checkbox-container input:checked+.custom-checkbox::after {
+  opacity: 1;
+}
+
+/* Label text */
+.label-text {
+  margin-left: 8px;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 400;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Remove autofill styles */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  box-shadow: 0 0 0 1000px white inset !important;
+  -webkit-text-fill-color: #333 !important;
+}
+
+/* Additional styling for input */
+/* input[type="file"]{
+  display: none;
+} */
+.custom-file-input input[type="file"] {
+  display: none;
+}
+
+.custom-file-input label {
+  margin-top: 3rem;
+  border-bottom: 2px solid #fff;
+  color: rgba(233, 233, 233, 0.7);
+  font-weight: 400;
+  padding-bottom: 5px;
+  background-color: transparent;
+  cursor: pointer;
+  width: 100%;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+@media(max-width:768px) {
+  .personal-info {
+    font-size: 25px;
+  }
+  .professional-info {
+    font-size: 25px;
+  }
+  
+  .label-main {
+    font-size: 17px;
+  }
+
+  .select-profile {
+    font-size: 17px;
+  }
+
+  .select-profile {
+    font-size: 17px;
+
+  }
+
+  .select-profile.selected {
+
+    font-size: 17px;
+  }
+
+  input[type="text"] {
+    font-size: 17px;
+  }
+
+  input[type="date"] {
+    font-size: 17px;
+  }
+
+  .gender-label {
+    font-size: 17px;
+  }
+  
+
+
+
+    .radio-group {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: -30px;
+    }
+
+    .radio-group label:before {
+      content: "";
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+    .custom-file-input label {
+      margin-top: 1rem;
+      font-size: 17px;
+    }
+    .label-text {
+      font-size: 12px;
+    }
+    .btn-main-check {
+      margin-top: 4rem;
+      
+    }
+    
+    
+
+
+
+
+
+}
+@media(max-width:530px){
+  .hear-about {
+    margin-top: 1rem;
+  }
+  
+  .box{
+    margin-top: 1rem;
+  }
+  .personal-info {
+    font-size: 16px;
+  
+  }
+  .professional-info {
+    margin-bottom: 0rem;
+    margin-top: 2rem;
+    font-size: 16px;
+  }
+  
+  .member-form {
+    background: linear-gradient(to bottom, #FF3131, #FF8210,#FF3131,#FF8210);
+    border-radius: 20px;
+    padding: 1.5rem;
+    width: 90%;
+    margin: auto;
+  }
+  .label-main {
+    font-size: 10px;
+  }
+
+  .select-profile {
+    font-size: 10px;
+  }
+
+  .select-profile {
+    font-size: 10px;
+
+  }
+
+  .select-profile.selected {
+
+    font-size: 10px;
+  }
+
+  input[type="text"] {
+    font-size: 10px;
+  }
+
+  input[type="date"] {
+    font-size: 10px;
+  }
+
+  .gender-label {
+    font-size: 10px;
+  }
+  .custom-file-input label {
+    margin-top: 1rem;
+    font-size: 10px;
+  }
+  
+
+
+    .radio-group {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: -30px;
+    }
+
+    .radio-group label:before {
+      content: "";
+      display: inline-block;
+      width: 15px;
+      height: 15px;
+      border: 2px solid #fff;
+      border-radius: 50%;
+      margin-right: 5px;
+      vertical-align: middle;
+    }
+    .label-text {
+      margin-top: 10px;
+      font-size: 7.5px;
+    }
+    .custom-checkbox {
+      margin-top: 10px;
+      width: 10px;
+      height: 10px;
+      border: 1px solid #ccc;
+      border-radius: 0px;
+ 
+    }
+    .custom-checkbox::after {
+
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 6px;
+      height: 6px;
+      background-color: #fff;
+      border-radius: 2px;
+      opacity: 0;
+    }
+    .check-box-main-container{
+      margin-top: 1rem;
+  } 
+  .btn-main-check {
+    margin-top: 2rem;
+    padding: 5px 60px 5px 60px;
+    border: 2px solid #fff;
+    
+    
+  }
+  
+}

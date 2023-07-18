@@ -1,0 +1,241 @@
+.footer {
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    min-height: 596px;
+    background: linear-gradient(to bottom, #FF8210, #FF3131);
+    width: 100%;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.left-content {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.left-content h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    /* Medium font weight */
+    font-size: 36px;
+    color: #fff;
+    margin-left: 40px;
+}
+
+.left-content h1 span {
+    font-style: italic;
+    font-weight: 700;
+}
+
+.copyright {
+    position: absolute;
+    bottom: 20px;
+
+}
+
+.copyright h3 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    /* Medium font weight */
+    font-size: 20px;
+    color: #fff;
+    margin-left: 40px;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.right-content {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contact {
+    /* position: absolute;
+
+    left: 20px;
+    top: 120px; */
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    /* Medium font weight */
+    font-size: 32px;
+    color: #fff;
+}
+
+.icon-img {
+    display: flex;
+    align-items: center;
+}
+
+.house-com {
+    margin-left: 10px;
+}
+
+.icon-img h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    /* Medium font weight */
+    font-size: 20px;
+    color: #fff;
+}
+
+.social-icons img {
+    height: "100px"
+}
+
+.label-all {
+    background-color: transparent;
+}
+
+label {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 300;
+}
+
+@media(max-width:768px) {
+    .footer {
+        position: relative;
+        margin-top: 3rem;
+        display: flex;
+        flex-wrap: wrap;
+        min-height: 596px;
+        background: linear-gradient(to bottom, #FF8210, #FF3131);
+        width: 100%;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .left-content {
+
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .left-content h1 {
+        text-align: center;
+        margin: 0;
+        font-weight: 400;
+        /* Medium font weight */
+        font-size: 20px;
+        color: #fff;
+    }
+
+    .left-content h1 span {
+        text-align: center;
+        margin: 0;
+        font-weight: 400;
+        /* Medium font weight */
+        font-size: 20px;
+        color: #fff;
+    }
+
+}
+
+@media(max-width:1000px) {
+    .copyright h3 {
+        display: none;
+    }
+}
+
+.bottom-footer-content h3{
+    display: none;
+}
+
+@media(max-width:1000px) {
+    .bottom-footer-content h3 {
+        font-size: 15px;
+        display: block;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        margin-bottom: -3rem;
+        margin-left: 30px;
+    }
+}
+
+
+@media(max-width:425px) {
+    .footer {
+        margin-top: 3rem;
+        display: flex;
+        flex-wrap: wrap;
+        min-height: 483px;
+        background: linear-gradient(to bottom, #FF3131, #FF8210);
+        width: 100%;
+        border-top-left-radius: 50px;
+        border-top-right-radius: 50px;
+    }
+
+    .contact {
+        /* position: absolute;
+    
+        left: 20px;
+        top: 120px; */
+        margin-left: 20px;
+        margin-bottom: 1rem;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 500;
+        /* Medium font weight */
+        font-size: 14px;
+        color: #fff;
+    }
+
+    .icon-img h1 {
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        /* Medium font weight */
+        font-size: 10px;
+        color: #fff;
+    }
+
+    .location {
+        height: 45px;
+        width: 70px;
+    }
+
+    .contact-image {
+        width: 80px;
+        height: 62px;
+        margin-left: 0px;
+        margin-right: 7px;
+    }
+
+    .contact-container {
+        margin-top: 20px;
+        margin-left: 5px;
+    }
+
+    .right-content {
+        margin-left: 20px;
+        /* margin-top: rem; */
+    }
+
+    .house-com {
+        margin-left: 0px;
+    }
+    .bottom-footer-content h3 {
+        font-size: 8px;
+        display: block;
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+        font-weight: 200;
+        margin-bottom: -3rem;
+        margin-left: 0px;
+    }
+
+}

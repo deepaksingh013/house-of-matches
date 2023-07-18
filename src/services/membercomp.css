@@ -1,0 +1,19 @@
+.main-section-comp{
+    width: 97%;
+    background-color: #F7F4EC;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4rem 6rem 4rem 6rem;
+    border-radius: 30px;
+}
+.main-section-txt{
+    font-size: 45px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color:#FF8210;
+}
+.main-section-txt span{
+    font-weight: bold;
+}

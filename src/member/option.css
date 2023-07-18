@@ -1,0 +1,45 @@
+body {
+  font-size: 10vmin;
+}
+
+select {
+  --selectHoverCol: #000;
+  --selectedCol: #edf0ee;
+  width: 100%;
+  font-size: 1em;
+  padding: 0;
+  background-color: #edf0ee;
+  border: none;
+}
+
+select:hover {
+  border-radius: 0px;
+  outline: none;
+}
+
+.select-wrap {
+  position: relative;
+}
+
+.select-wrap:focus-within select {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+option{
+  color: #000 !important;
+}
+
+.selectHovercolor option {
+  color: #000 !important;
+  border-bottom: 1px solid #000;
+  width: 100%;
+}
+
+.selectHovercolor option:checked {
+  color: red !important;
+}
+.selectHovercolor option:checked {
+  box-shadow: 0 0 1em 100px var(--selectedCol) inset;
+}

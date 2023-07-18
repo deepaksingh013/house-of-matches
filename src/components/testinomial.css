@@ -1,0 +1,59 @@
+.testinomial{
+    margin-top: 4rem;
+}
+
+.testCard{
+    min-height: 349px;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+.testCard .card-content-test{
+    margin-bottom: 2rem;
+    min-height: 349px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* .card-content-test{
+    background-color: pink;
+} */
+
+.card-item-tst{
+    display: flex;
+    padding: 20px;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    min-height: 349px;
+    background-image: linear-gradient(to bottom,#FF8210 70%,#fff);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.card-item-tstmain{
+    display: flex;
+    padding: 20px;
+    /* align-items: center; */
+    flex-direction: column;
+    justify-content: center;
+    min-height: 349px;
+    background-image: linear-gradient(to bottom,#FF3131 70%,#fff);
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.card-item-content{
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    color: #fff;
+    margin-bottom: 2rem;
+    letter-spacing: -0.02em;
+}
+.card-item-name{
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    letter-spacing: -0.02em;
+}

@@ -1,24 +1,40 @@
 import logo from './logo.svg';
 import './App.css';
+import { Routes, Route } from 'react-router-dom';
+import Header from './components/Header';
+import MemberBanner from './member/MemberBanner';
+import Footer from './components/Footer';
+import PrivacyPolicy from './privacypolicy/PrivacyPolicy';
+import TC from './t&c/TC';
+import MemberForm from './member/MemberForm';
+import Member from './member/Member';
+import Upload from './components/Upload';
+import Home from './home/Home';
+import Services from './services/Services';
+import Listuser from './adminpanel/Listuser';
+import Option from './member/Option';
+// import MemberForm from './member/MemberForm';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Header />
+
+      {/* <Option/> */}
+      {/* <Upload/> */}
+
+      {/* <MemberForm/> */}
+      <Routes>
+        <Route path='/admin/listuser' element={<Listuser />} />
+        <Route path='/' element={<Home />} />
+        <Route path='/services' element={<Services />} />
+        <Route path='/member' element={<Member />} />
+        <Route path='/privacypolicy' element={<PrivacyPolicy />} />
+        <Route path='/t&c' element={<TC />} />
+      </Routes>
+      <Footer />
+    </>
   );
 }
 

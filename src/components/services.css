@@ -1,0 +1,85 @@
+.main-services {
+    margin-top: 4rem;
+}
+
+
+.services {
+    background-image: linear-gradient(to bottom, #FF8210, #FF3131);
+    border-top-left-radius: 64px;
+    border-top-right-radius: 64px;
+    /* width: 97%;
+    margin: auto; */
+    padding: 6rem 4rem 6rem 4rem;
+}
+
+.services-title {
+    text-align: center;
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    color: #fff;
+    margin-bottom: 3rem;
+}
+
+.services-title span {
+    font-size: 48px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    color: #fff;
+    font-style: italic;
+}
+
+.services-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card-content{
+    /* position: relative; */
+    padding: 2rem 1rem 2rem 1rem;
+}
+
+.cards {
+    position: relative;
+    margin-top: 30px;
+    border: 4px solid #fff;
+    border-radius: 17px;
+    background-color: transparent;
+    width: 32%;
+    min-height: 483px;
+}
+
+.bottom-bx{
+    position: absolute;
+    bottom: -2px;
+    height: 187px;
+    background-color: #fff;
+    width: 100%;
+    border-bottom-left-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+
+
+.card-title-item h1{
+    min-height: 80px;
+    font-size: 27px;
+    font-family: 'Zakarta Sans', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    
+}
+.card-content-item h1{
+    min-height: 100px;
+    font-size: 20px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+.card-txt h1{
+    text-transform: uppercase;
+    font-size: 14px;  
+    font-family: 'Zakarta Sans', sans-serif;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 3px;
+}
