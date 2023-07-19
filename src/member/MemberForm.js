@@ -105,7 +105,6 @@ export default function MemberForm() {
         { value: 'Friends', label: 'Friends' },
         { value: 'Social Media', label: 'Social Media' },
         { value: 'Others', label: 'Others' },
-        { value: 'Friend', label: 'Friend' },
     ];
 
     const customStyles = {
