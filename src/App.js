@@ -13,6 +13,9 @@ import Home from './home/Home';
 import Services from './services/Services';
 import Listuser from './adminpanel/Listuser';
 import Option from './member/Option';
+import Drop from './components/Drop';
+
+
 // import MemberForm from './member/MemberForm';
 
 
@@ -20,6 +23,10 @@ function App() {
   return (
     <>
       <Header />
+   
+      {/* <Drop/> */}
+    
+      
 
       {/* <Option/> */}
       {/* <Upload/> */}
@@ -27,9 +34,9 @@ function App() {
       {/* <MemberForm/> */}
       <Routes>
         <Route path='/admin/listuser' element={<Listuser />} />
-        <Route path='/' element={<Home />} />
+        {/* <Route path='/' element={<Home />} /> */}
         <Route path='/services' element={<Services />} />
-        <Route path='/member' element={<Member />} />
+        <Route path='/' element={<Member />} />
         <Route path='/privacypolicy' element={<PrivacyPolicy />} />
         <Route path='/t&c' element={<TC />} />
       </Routes>

@@ -1,58 +1,68 @@
-.main{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 1rem;
-   
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+
 }
+
 .header {
   width: 97%;
   height: 104px;
-  background: linear-gradient(to right,#FF8210, #FF3131 );
+  background: linear-gradient(to right, #FF8210, #FF3131);
   border-radius: 30px;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.header .title{
+.header .title {
+  margin-top: 7px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  /* Medium font weight */
+  font-size: 36px;
+  color: #fff;
+  letter-spacing: -0.04em;
+}
+
+.header .title span {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  /* Medium font weight */
+  font-size: 36px;
+  color: #fff;
+  font-style: italic;
+}
+
+@media(max-width:530px) {
+  .header {
+    width: 90%;
+    height: 62px;
+    background: linear-gradient(to right, #FF8210, #FF3131);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header .title {
+    margin-top: 7px;
     font-family: 'Poppins', sans-serif;
-    font-weight: 500; /* Medium font weight */
-    font-size: 36px;
+    font-weight: 500;
+    /* Medium font weight */
+    font-size: 18px;
     color: #fff;
     letter-spacing: -0.04em;
   }
-  .header .title span{
+
+  .header .title span {
     font-family: 'Poppins', sans-serif;
-    font-weight: 600; /* Medium font weight */
-    font-size: 36px;
+    font-weight: 600;
+    /* Medium font weight */
+    font-size: 18px;
     color: #fff;
     font-style: italic;
   }
 
-  @media(max-width:530px){
-    .header {
-      width: 90%;
-      height: 62px;
-      background: linear-gradient(to right,#FF8210, #FF3131 );
-      border-radius: 10px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-    }
-    .header .title{
-      font-family: 'Poppins', sans-serif;
-      font-weight: 500; /* Medium font weight */
-      font-size: 18px;
-      color: #fff;
-      letter-spacing: -0.04em;
-    }
-    .header .title span{
-      font-family: 'Poppins', sans-serif;
-      font-weight: 600; /* Medium font weight */
-      font-size: 18px;
-      color: #fff;
-      font-style: italic;
-    }
-    
-  }
+}

@@ -15,10 +15,10 @@ export default function Footer() {
                         <div> <h1>house of <span>matches</span> </h1></div>
                         <div className='social-icons'>
                             <div>
-                                <img src={insta} alt="" />
+                                <img src={insta} alt="" className='insta-bg'/>
                             </div>
                             <div>
-                                <img src={facebook} alt="" />
+                                <img src={facebook} alt="" className='insta-bg'/>
                             </div>
                         </div>
                     </div>

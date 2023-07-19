@@ -7,7 +7,7 @@ export default function Header() {
   return (
     <>
     <div className='main'>
-    <div className='header p-4'>
+    <div className='header'>
         {/* <div>
             <img src={hamburger} alt="" />
         </div> */}
