@@ -118,7 +118,7 @@ export default function MemberForm() {
             borderLeft: "0px",
             borderRight: "0px",
             borderRadius: "0px",
-            padding:"-10px",
+            
             borderBottom: "2px solid #fff",
             color: "#fff",
             '&:hover': {
