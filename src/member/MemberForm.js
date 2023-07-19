@@ -164,8 +164,7 @@ export default function MemberForm() {
             fontSize: '24px',
             fontWeight: "500",
             fontFamily: "'Poppins', sans-serif",
-            position:"absolute",
-            bottom:"0px",
+
             color: state.isSelected ? '#fff' : "#fff", // Custom color for selected option
             '&:hover': {
                 color: state.isSelected ? '#fff' : "#fff",  // Custom color on option hover
