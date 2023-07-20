@@ -39,7 +39,7 @@ export default function OurSocial() {
             <div style={ourSocial}>
             
                 <div style={allImg}>
-                <div style={{display:"flex",justifyContent:"space-between",gap:"20px"}}>
+                <div style={{display:"flex",justifyContent:"space-between",gap:"20px",marginBottom:"6rem"}}>
                     {imgmain.map((item,index)=>{
                         return <div style={{display:"flex",justifyContent:"space-between"}}>
                             <img src={item} alt="" style={{maxWidth:"97%"}}/>
