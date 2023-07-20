@@ -28,7 +28,7 @@ export default function Testinimial() {
                                 </div>
                                 <div className={index % 2 === 0 ? "card-item-tst" : "card-item-tstmain"}>
                                     <div className='card-item-content'>
-                                        {item.content}
+                                      <h1>{item.content}</h1>  
                                     </div>
                                     <div className='card-item-name'>
                                         {item.name}

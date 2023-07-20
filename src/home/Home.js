@@ -8,6 +8,7 @@ import ImgSection from './ImgSection'
 import OurSocial from './OurSocial'
 import Founder from './Founder'
 import Testinimial from '../components/Testinimial'
+import FooterMain from '../components/FooterMain'
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
    
 
       <OurSocial />
+      <FooterMain/>
     </>
   )
 }

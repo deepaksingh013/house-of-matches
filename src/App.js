@@ -34,13 +34,13 @@ function App() {
       {/* <MemberForm/> */}
       <Routes>
         <Route path='/admin/listuser' element={<Listuser />} />
-        {/* <Route path='/' element={<Home />} /> */}
+        <Route path='/home' element={<Home />} />
         <Route path='/services' element={<Services />} />
         <Route path='/' element={<Member />} />
         <Route path='/privacypolicy' element={<PrivacyPolicy />} />
         <Route path='/t&c' element={<TC />} />
       </Routes>
-      <Footer />
+
     </>
   );
 }

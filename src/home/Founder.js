@@ -2,7 +2,7 @@ import React from 'react'
 import "./founder.css"
 import founderImg from "../images/Untitled design-11 2 (1).png"
 // import arrow from "../images/Arrow 22 (1).png"
-import arrow from "../images/Arrow 22.png"
+import arrow from "../images/Arrow 22 (2).png"
 
 export default function Founder() {
   return (

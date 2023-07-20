@@ -40,10 +40,10 @@
     border-radius: 20px;
     text-transform: uppercase;
     font-weight: bold;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 40px 10px 40px;
     margin-top: 2rem;
     font-family: "Poppins", sans-serif;
-   background-color: #ff3131;
+    background: linear-gradient(to bottom, #FF3131, #FF8210);
    color:#fff
 }
 

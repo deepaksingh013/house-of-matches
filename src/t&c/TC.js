@@ -8,6 +8,7 @@ export default function TC() {
     <div>
       <MemberBanner />
       <TcContent />
+      <Footer/>
     </div>
   )
 }
