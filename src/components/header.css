@@ -37,7 +37,7 @@
 
 @media(max-width:530px) {
   .header {
-    width: 90%;
+    width: 94%;
     height: 62px;
     background: linear-gradient(to right, #FF8210, #FF3131);
     border-radius: 10px;
