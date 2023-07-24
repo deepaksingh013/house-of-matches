@@ -1,10 +1,14 @@
 .main-banner {
+    position: absolute;
+    top: 0px;
     display: flex;
     justify-content: center;
     align-items: center;
     position: relative;
 }
-
+.banner-content img{
+    background-repeat: no-repeat;
+}
 /* member style */
 .memb-banner {
     display: flex;
@@ -14,8 +18,7 @@
 }
 
 .banner-content {
-    margin-top: 2rem;
-    width: 97%;
+    width: 100%;
     margin-bottom: 2rem;
 
 }
@@ -26,8 +29,7 @@
 
 .mrmber-txt {
     position: absolute;
-    bottom: 60px;
-    left: 60px;
+   
 }
 
 .mrmber-txt h1 {
@@ -35,6 +37,7 @@
     font-weight: 500;
     /* Medium font weight */
     font-size: 64px;
+    letter-spacing: -0.04em;
     color: #fff;
 }
 
@@ -51,18 +54,18 @@
         display: none;
     }
     .mrmber-txt h1 {
-        font-size: 20px;
+        font-size: 24px;
     }
     .banner-content {
-        margin-top: 1.5rem;
-        width: 94%;
+    
+        width: 100%;
         margin-bottom: 1.5rem;
     
     }
-    .mrmber-txt {
+    /* .mrmber-txt {
         position: absolute;
         bottom: 27px;
         left: 27px;
-    }
+    } */
     
 }

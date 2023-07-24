@@ -119,19 +119,19 @@ export default function MemberForm() {
             borderRight: "0px",
             borderRadius: "0px",
             
-            borderBottom: "2px solid #fff",
+            borderBottom: "2px solid #000",
             color: "#fff",
             '&:hover': {
-                borderBottom: "2px solid #fff",
+                borderBottom: "2px solid #000",
             },
         }),
         placeholder: (provided) => ({
             ...provided,
-            color: '#fff', // Custom color for the placeholder
+            color: '#000', // Custom color for the placeholder
             // Custom font style for the placeholder
             fontSize: '27px',
             opacity: "0.7",
-            fontWeight: "500",
+            fontWeight: "400",
         
             "@media(max-width: 530px)": {
                 position:"absolute",
@@ -165,9 +165,9 @@ export default function MemberForm() {
             fontWeight: "500",
             fontFamily: "'Poppins', sans-serif",
 
-            color: state.isSelected ? '#fff' : "#fff", // Custom color for selected option
+            color: state.isSelected ? '#000' : "#000", // Custom color for selected option
             '&:hover': {
-                color: state.isSelected ? '#fff' : "#fff",  // Custom color on option hover
+                color: state.isSelected ? '#000' : "#000",  // Custom color on option hover
             },
             "@media(max-width: 530px)": {
                 fontSize: "14px"
@@ -387,7 +387,7 @@ export default function MemberForm() {
                             <label className="checkbox-container">
                                 <input type="checkbox" />
                                 <span className="custom-checkbox"></span>
-                                <span className="label-text">I am in full agreement with the <a href="/t&c" target="_blank" rel="noopener noreferrer" style={{ color: "#fff" }}> terms and conditions</a> and <a href="/privacypolicy" target="_blank" rel="noopener noreferrer" style={{ color: "#fff" }}>privacy policy</a></span>
+                                <span className="label-text">I am in full agreement with the <a href="/t&c" target="_blank" rel="noopener noreferrer" style={{ color: "#000000" }}> terms and conditions</a> and <a href="/privacypolicy" target="_blank" rel="noopener noreferrer" style={{ color: "#000000" }}>privacy policy</a></span>
                             </label>
                         </div>
 

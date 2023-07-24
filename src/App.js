@@ -14,6 +14,7 @@ import Services from './services/Services';
 import Listuser from './adminpanel/Listuser';
 import Option from './member/Option';
 import Drop from './components/Drop';
+import Confirmation from './confirmation/Confirmation';
 
 
 // import MemberForm from './member/MemberForm';
@@ -22,7 +23,8 @@ import Drop from './components/Drop';
 function App() {
   return (
     <>
-      <Header />
+    <Header/>
+     
    
       {/* <Drop/> */}
     
@@ -35,6 +37,7 @@ function App() {
       <Routes>
         <Route path='/admin/listuser' element={<Listuser />} />
         <Route path='/home' element={<Home />} />
+        <Route path='/confirmation' element={<Confirmation />} />
         <Route path='/services' element={<Services />} />
         <Route path='/' element={<Member />} />
         <Route path='/privacypolicy' element={<PrivacyPolicy />} />

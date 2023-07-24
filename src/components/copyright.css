@@ -1,0 +1,22 @@
+.copyright-main{
+
+    display: none;
+    border-top: 1px solid grey;
+    background-color: #14281D;
+    
+}
+.copyright-main h6{
+    color: #fff;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 1rem;
+}
+
+@media(max-width:425px){
+    .copyright-main{
+        display: block !important;
+        
+    }
+}
